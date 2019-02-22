@@ -1,0 +1,270 @@
+#body{
+			color:#fff555;
+			background-color:#ffffff;
+
+		}
+#header{
+		color:#aadd33;
+		text-orientation:center;
+		text-align:center;
+		text-transform:capitalize;
+		}
+#mymenu > ul {
+	background-color:#d3d3d3;
+	color:#d3d8d8;
+	font-size:20px;
+	font-family:Times New Roman;
+	
+}
+#mymenu>ul>li{
+	display:inline-block;
+	list-style-type:none;
+	padding:5px 45px;
+	position:relative;
+	
+}
+#mymenu>ul>li:hover{
+	background-color:#383838;
+	color:yellow;
+	
+}
+ul .submenu{
+	position:absolute;
+	list-style-type:none;
+	background-color:#383838;
+	color:#d3d8d8;
+	padding-left:0px;
+	margin-left:-45px;
+	opacity:0;
+	
+	
+	
+}
+ul .submenu li{
+	padding-left:45px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+}
+#mymenu li:hover .submenu{
+	opacity:1;	
+}
+ul .submenu li:hover{
+	background-color:#656565;
+	color:green;
+	text-decoration:none;
+}
+#mymenu2>ul{
+	color:red;
+	background-color:d3d3d3;
+	font-size:15px;
+	font-family:san-serif;
+}
+#mymenu2 >ul>li{
+	list-style-type:none;
+	position:relative;
+    padding:5px 25px;
+}
+#mymenu2 >ul>li:hover{
+	background-color:#656565;
+	color:white;
+}
+ul #submenu2{
+	position:absolute;
+	list-style-type:none;
+	background-color:#383838;
+	color:#d3d8d8;
+	padding-left:0px;
+	margin-left:-45px;
+	opacity:0;
+	
+}
+ul #submenu2 li{
+	padding-left:25px;
+	padding-right:45px;
+	padding-top:5px;
+	padding-bottom:2px;
+}
+#mymenu  li:hover #submenu2{
+	 opacity:1;
+ }
+ ul #submenu2 li:hover{
+	 color:red;
+	 background-color:green;
+	 
+ }
+ #mycarousel{
+
+	width:100%;
+	height:50px;
+	padding:2px 2px;
+	
+}
+#socials{
+	position: relative;
+	bottom: 0;
+}
+#socialshome{
+	position: relative;
+	bottom: 0;
+	top: 200px;
+	/*margin-left: 775px;*/
+
+
+}
+#facebook{
+	z-index: 47;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 81px;
+	left: 50%;
+	margin-left: -142px;
+	background-color: rgb(0, 214, 145);
+	background-image: url(http://127.0.0.1:3000/images/FaceBook.png);
+	background-repeat: no-repeat;
+	/*background-size: contain;*/
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position: 50% 50%;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	display: block;
+}
+#twitter{
+	z-index: 47;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 81px;
+	left: 50%;
+	margin-left: -85px;
+	background-color: rgb(0, 214, 145);
+	background-image: url(http://127.0.0.1:3000/images/Twitter.png);
+	background-repeat: no-repeat;
+	/*background-size: contain;*/
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position: 50% 50%;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	display: block;
+
+
+}
+#ig{
+	z-index: 47;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 81px;
+	left: 50%;
+	margin-left: -28px;
+	background-color: rgb(0, 214, 145);
+	background-image: url(http://127.0.0.1:3000/images/Instagram.png);
+	background-repeat: no-repeat;
+	/*background-size: contain;*/
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position: 50% 50%;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	display: block;
+
+
+}
+#youtube{
+	z-index: 47;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 81px;
+	left: 50%;
+	margin-left: 30px;
+	background-color: rgb(0, 214, 145);
+	background-image: url(http://127.0.0.1:3000/images/YouTube.png);
+	background-repeat: no-repeat;
+	/*background-size: contain;*/
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position: 50% 50%;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	display: block;
+
+
+}
+#soundcloud{
+	z-index: 47;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 81px;
+	left: 50%;
+	margin-left: 88px;
+	background-color: rgb(0, 214, 145);
+	background-image: url(http://127.0.0.1:3000/images/soundcloud.png);
+	background-repeat: no-repeat;
+	/*background-size: contain;*/
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position: 50% 50%;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-top-style: solid;
+	border-top-width: 0px;
+	display: block;
+
+
+}
+#socialholder{
+	margin-left: 32px;
+}
